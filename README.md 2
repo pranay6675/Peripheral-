@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peripheral Devices - Explore the World of Tech</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #ffffff, #e6f7ff);
+            color: #333;
+          
+            background: #333;
+            padding: 10px 0;  line-height: 1.6;
+        }
+        header {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        p {
+            text-align: justify;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #4CAF50;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peripheral Devices</h1>
+        <p>Unlock the full potential of your computer with the right peripherals</p>
+    </header>
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#types">Types</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#importance">Importance</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="introduction" class="section">
+            <h2>Introduction to Peripheral Devices</h2>
+            <p>Peripheral devices are hardware components that connect to a computer to expand its functionality. These devices fall into various categories, such as input devices, output devices, and storage devices. Whether you are typing a document, watching a movie, or saving files, peripheral devices play a crucial role in enhancing your computing experience.</p>
+        </section>
+        <section id="types" class="section">
+            <h2>Types of Peripheral Devices</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Keyboard">
+                    <div class="card-content">
+                        <h3>Input Devices</h3>
+                        <p>Devices like keyboards, mice, and graphic tablets that help you input data into your computer.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Monitor">
+                    <div class="card-content">
+                        <h3>Output Devices</h3>
+                        <p>Monitors, projectors, and printers that display or output information processed by your computer.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="External Storage">
+                    <div class="card-content">
+                        <h3>Storage Devices</h3>
+                        <p>External hard drives, USB drives, and SD cards used to store large amounts of data.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Gaming Accessories">
+                    <div class="card-content">
+                        <h3>Gaming Peripherals</h3>
+                        <p>Specialized devices like gaming controllers, VR headsets, and high-performance gaming mice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="section">
+            <h2>Peripheral Devices in Action</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 1">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 2">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 3">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 4">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 5">
+                <img src="https://via.placeholder.com/300" alt="Peripheral 6">
+            </div>
+        </section>
+        <section id="importance" class="section">
+            <h2>Why Are Peripheral Devices Important?</h2>
+            <p>Peripheral devices bridge the gap between users and machines. They allow seamless interaction, data sharing, and task automation. From designing to gaming, peripheral devices significantly impact productivity and user experience. Choosing the right peripherals can dramatically improve your workflow and overall satisfaction.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions or need recommendations? We are here to help!</p>
+            <p>Email: <a href="mailto:info@peripheraldevices.com">info@peripheraldevices.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Peripheral Devices. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
